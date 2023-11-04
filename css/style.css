@@ -48,7 +48,8 @@ body {
 }
 
 .hero-container {
-    display: block;
+    display: flex;
+    align-content: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
@@ -174,7 +175,7 @@ a:hover, a:active {
 
 .hero-content .btn:focus {
     background: #333333;
-    color: #F1F1F1;
+    color: #74b44a;
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
